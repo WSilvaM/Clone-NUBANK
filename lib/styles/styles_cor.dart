@@ -10,9 +10,9 @@ class ColorsApp {
     return _instance!;
   }
 
-  Color get primary => Color(0XFba4de3);
+  Color get primary => Color.fromARGB(255, 144, 5, 168);
 
-  Color get white => Color(0XFFffffff);
+  Color get white => Color(0XFFFFFFFF);
 }
 
 extension ColorsAppExtensions on BuildContext {
