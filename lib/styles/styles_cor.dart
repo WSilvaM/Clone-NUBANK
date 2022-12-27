@@ -13,6 +13,7 @@ class ColorsApp {
   Color get primary => Color.fromARGB(255, 144, 5, 168);
 
   Color get white => Color(0XFFFFFFFF);
+  Color get sombra => Color.fromARGB(255, 227, 239, 237);
 }
 
 extension ColorsAppExtensions on BuildContext {

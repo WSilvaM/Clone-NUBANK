@@ -1,4 +1,5 @@
 import 'package:clone_nubank/Telas/Pais.dart';
+import 'package:clone_nubank/Telas/Tela_do_Usuario.dart';
 import 'package:clone_nubank/styles/styles_cor.dart';
 import 'package:flutter/material.dart';
 
@@ -80,7 +81,13 @@ class _TelaApresentacaoState extends State<TelaApresentacao> {
                     height: 50,
                     width: 350,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => TelaDoUsuario(),
+                            ));
+                      },
                       child: Text(
                         "Começar",
                         style: TextStyle(fontSize: 20),
